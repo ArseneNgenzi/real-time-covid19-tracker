@@ -4,7 +4,7 @@ import "./Map.css";
 import { showDataOnMap } from '../util';
 
 const Map = ({ countries, casesType, center, zoom }) => {
-    return (
+    return ( 
         <div className="map">
             <MapContainer center={center} zoom={zoom}>
                 <TileLayer
